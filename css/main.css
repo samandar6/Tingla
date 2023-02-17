@@ -110,7 +110,6 @@ body a {
 
 .about-block {
   min-height: 500px;
-  background: #0F0F54;
   border-radius: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -118,5 +117,28 @@ body a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  gap: 0 60px;
+}
+
+.about-block-textBox__title {
+  font-family: 'Red Hat Display';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 60px;
+  letter-spacing: -0.01em;
+  color: #000;
+}
+
+.about-block-textBox__text {
+  font-family: 'Red Hat Display';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 34px;
+  color: #000;
+  max-width: 470px;
+  padding-top: 20px;
+  padding-bottom: 50px;
 }
 /*# sourceMappingURL=main.css.map */
