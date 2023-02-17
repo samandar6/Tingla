@@ -9,6 +9,33 @@
     .hero-block__img {
         width: 65%;
     }
+
+    .about {
+        margin-top: 150px;
+    }
+
+    .about-block {
+        flex-direction: column;
+        text-align: center;
+        height: 800px;
+        padding-left: 0;
+    }
+
+    .about-block__img {
+        width: 50%;
+    }
+
+    .background {
+        flex-direction: column-reverse;
+    }
+
+    .column-reverse {
+        flex-direction: column-reverse;
+    }
+
+    .mini-title {
+        padding-top: 30px;
+    }
 }
 
 @media (max-width: 530px) {
