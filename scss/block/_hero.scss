@@ -1,0 +1,45 @@
+.hero {
+    margin-top: 50px;
+
+    &-block {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+
+        &-textBox {
+            &__title {
+                font-family: 'Red Hat Display';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 80px;
+                line-height: 95px;
+                letter-spacing: -0.02em;
+                color: #000000;
+            }
+
+            &__text {
+                font-family: 'Red Hat Display';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 24px;
+                line-height: 36px;
+                color: #000000;
+                padding-top: 24px;
+                padding-bottom: 69px;
+            }
+
+            &__btn {
+                padding: 18px 40px;
+                background: #0F0F54;
+                border-radius: 8px;
+                font-family: 'Red Hat Display';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 24px;
+                letter-spacing: -0.01em;
+                color: #FFFFFF;
+            }
+        }
+    }
+}

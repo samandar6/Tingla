@@ -1,0 +1,26 @@
+.header {
+    min-height: 60px;
+
+    &-block {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 20px;
+
+        &-nav {
+            &-ul {
+                display: flex;
+                gap: 0 32px;
+
+                &-li {
+                    &__link {
+                        font-family: 'Red Hat Display';
+                        font-weight: 500;
+                        color: #000;
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+    }
+}

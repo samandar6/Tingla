@@ -1,0 +1,11 @@
+.about {
+    margin-top: 156px;
+
+    &-block {
+        min-height: 500px;
+        background: #0F0F54;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+    }
+}
